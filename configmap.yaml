@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-config
+  namespace: coder
+data:
+  name: "dog"
+  xml-core.xml:
+    Wild
+    Pet
+    Animal
+  Description: "this is my first config file"
